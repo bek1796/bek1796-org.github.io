@@ -1,0 +1,116 @@
+body{
+	font-family: 'Open Sans' ,sans-serif;
+	color:#000;
+	padding: 0;
+	margin: 0;
+}
+*{
+	box-sizing: border-box;
+}
+ul,li {
+	padding:0;
+	margin:0;
+	display:block;  	
+}
+h1,h2,h3,h4,h5,h6{
+	color:#000;
+	text-align:center;
+	text-transform: uppercase; 
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+}
+.container{
+	widows: 1170;
+	margin:0;
+
+}
+.header{
+	background: url('../img/fla-img.jpg') no-repeat center top;
+    padding-bottom: 200px;
+    padding-top: 67px;
+}
+.logo{
+	display: block;
+	margin:0 auto; 	
+}
+.offer{
+	margin-top: 160px;
+	text-align: center;
+}
+.main-title{
+	color:#fff;
+	font-size: 30px;
+}
+.intro{
+	color:#fff;
+    margin-top: 10px;
+	font-size: 16px;
+	font-weight: 300;
+	margin-bottom: 40px;
+}.cta{
+	color:#000;
+	background:#e66868; 
+	text-transform: uppercase;
+	font-size: 16px;
+	border-radius:20px;
+	padding:  15px 45px;
+	text-decoration: none;
+	font-weight: 600;
+}
+.block{
+	display: flex;
+	justify-content: space-between;
+}
+h2{
+	color:#000;
+	font-size: 25px;
+	padding: 93px 0 53px 0;
+}
+h3{
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: 20px;
+}
+.advantages{
+	display: flex;
+	justify-content: space-between;
+}
+.advantage{
+text-align: center;
+	width: 270px;
+}
+.order{
+	background:#f8f7f7;
+	margin-top: 100px;
+	padding-bottom: 100px;
+}
+.input{
+	border-radius:3px;
+	font-size: 14px;
+	color: #000;
+	font-family: 'Open Sans' ,sans-serif;
+	display: block;
+	width: 370px;
+	padding: 20px 24px;
+	bottom: 0;
+	box-shadow: 0 2px 5px #d4d3d3;
+	margin: 0 auto 13px auto;
+}
+.form .cta{
+	width: 370px;
+	cursor: pointer;
+	bottom: 0;
+	margin: 0 auto;
+	display: block;
+}
+footer{
+	font-size: 12px;
+	color:#fff;
+	text-align: center; 
+	padding: 50px 0;
+	bottom: 0;
+	margin: 0 ;
+	background: url('../img/fut-img.jpg') no-repeat center top;
+}
+
